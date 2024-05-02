@@ -7,7 +7,7 @@ class IntroPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
+      body: Center(child: Column(
           children: [
             //logo
             Padding(
@@ -51,7 +51,7 @@ class IntroPage extends StatelessWidget {
               child:
             SizedBox(
             child: Container(
-            width: 200,
+            width: 300,
               decoration: BoxDecoration(
                 color: Colors.grey[900],
                 borderRadius: BorderRadius.circular(10)
@@ -74,7 +74,7 @@ class IntroPage extends StatelessWidget {
             )
          )
       ],
-      )
+      ),)
     );
   }
 }
